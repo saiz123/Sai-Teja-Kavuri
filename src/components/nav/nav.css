@@ -1,0 +1,87 @@
+nav{
+    background: rgba(0, 0, 0, 0.3);
+    width: max-content;
+    display: block;
+    padding: 0.5em 1em;
+    z-index: 2;
+    position: fixed;
+    right: 2em;
+    transform: translateX(-50%);
+    bottom: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: .9em;
+    border-radius: 3em;
+    backdrop-filter: blur(20px);
+}
+/* nav{
+    background: rgba(0, 0, 0, 0.3);
+    width: max-content;
+    display: block;
+    padding: 0.5em 1em;
+    z-index: 2;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 1em;
+    display: flex;
+    flex-direction: row;
+    gap: .9em;
+    border-radius: 3em;
+    backdrop-filter: blur(20px);
+} */
+nav a {
+    background: transparent;
+    padding: .6em;
+    border-radius: 50%;
+    display: flex;
+    color:var(--color-primary);
+    font-size: 1.3rem;
+}
+
+nav a:hover{
+    background: rgba(0, 0, 0, 0.4);
+}
+
+nav a.active{
+    background:var(--color-primary) ;
+    color: var(--color-bg);
+    backdrop-filter: blur(10px);
+}
+@media screen and ( max-width:1024px )  {
+    nav{
+        background: rgba(0, 0, 0, 0.3);
+        width: max-content;
+        display: block;
+        padding: 0.5em 1em;
+        z-index: 2;
+        position: fixed;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 2em;
+        display: flex;
+        flex-direction: row;
+        gap: .9em;
+        border-radius: 3em;
+        backdrop-filter: blur(20px);
+    }
+}
+
+@media screen and ( max-width:600px)  {
+    nav{
+        background: rgba(0, 0, 0, 0.3);
+        width: max-content;
+        display: block;
+        padding: 0.5em 1em;
+        z-index: 2;
+        position: fixed;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 1.5em;
+        display: flex;
+        flex-direction: row;
+        gap: .9em;
+        border-radius: 3em;
+        backdrop-filter: blur(20px);
+    }
+}

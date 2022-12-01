@@ -1,0 +1,87 @@
+.contact-top{
+    text-align: center;
+    padding-top: 1rem;
+}
+.container.contact_container{
+     width: 58%;
+     display: grid;
+     grid-template-columns: 30% 58%;
+     gap: 12%;
+}
+.contact_options{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+.contact_option{
+    background-color:var(--color-bg-varient );
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+.contact_option:hover{
+    background: transparent;
+    border-color: var(--color-primary-varient);
+}
+.contact_option-icon{
+    color: var(--color-primary-varient);
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+.contact_option a {
+    margin-top: 0.7rem;
+    display: inline-block;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    
+}
+input, textarea{
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    background: var(--color-bg-varient);
+    border: 1px solid var(--color-primary-varient);
+    color:var(--color-primary-varient);
+    resize: none;
+}
+@media screen and ( max-width:1024px )  {
+    .expirence_container{
+        grid-template-columns: 1fr;
+    }
+    .expirence_container > div {
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+    .experience_content{
+        padding: 1rem;
+    }
+}
+
+
+@media screen and ( max-width:600px )  {
+    .expirence_container{
+        gap: 1rem;
+    }
+    .expirence_container > div {
+        width: 100%;
+        padding: 2rem 1rem;
+    }
+}@media screen and ( max-width:1024px )  {
+    .container.contact_container{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
+
+
+@media screen and ( max-width:600px )  {
+    .container.contact_container{
+        width: var(--container-width-sm);
+    }
+}
