@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Sai-Teja-Kavuri/static/css/main.edbdab92.css",
-    "main.js": "/Sai-Teja-Kavuri/static/js/main.a8a29997.js",
+    "main.js": "/Sai-Teja-Kavuri/static/js/main.b73769e9.js",
     "static/media/Resume.pdf": "/Sai-Teja-Kavuri/static/media/Resume.c1228834970959f42aac.pdf",
     "static/media/sai1.jpg": "/Sai-Teja-Kavuri/static/media/sai1.e9c196a752c55290aad7.jpg",
     "static/media/saiteja2.jpg": "/Sai-Teja-Kavuri/static/media/saiteja2.b1f1da15ed306c9657bb.jpg",
     "index.html": "/Sai-Teja-Kavuri/index.html",
     "main.edbdab92.css.map": "/Sai-Teja-Kavuri/static/css/main.edbdab92.css.map",
-    "main.a8a29997.js.map": "/Sai-Teja-Kavuri/static/js/main.a8a29997.js.map"
+    "main.b73769e9.js.map": "/Sai-Teja-Kavuri/static/js/main.b73769e9.js.map"
   },
   "entrypoints": [
     "static/css/main.edbdab92.css",
-    "static/js/main.a8a29997.js"
+    "static/js/main.b73769e9.js"
   ]
 }
