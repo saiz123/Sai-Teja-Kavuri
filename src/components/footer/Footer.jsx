@@ -19,7 +19,7 @@ const footer = () => {
         <a href="https://www.facebook.com/SaiX123" target='_blank' rel="noreferrer"><FaFacebookF/></a>
         <a href="https://github.com/saiz123" target='_blank' rel="noreferrer"><VscGithub/></a>
         <a href="https://www.instagram.com/saiteja_kavuri" target='_blank' rel="noreferrer"><BsInstagram/></a>
-        <a href="www.linkedin.com/in/sai-teja-kavuri" target='_blank' rel="noreferrer"><FaLinkedinIn/></a>
+        <a href="https://www.linkedin.com/in/sai-teja-kavuri" target='_blank' rel="noreferrer"><FaLinkedinIn/></a>
       </div>
     </footer>
   )
