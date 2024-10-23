@@ -39,10 +39,10 @@ const about = () => {
             <article className='about_card'>
               <AiOutlineHeart className='about_icon'/>
               <h5>Hobbies</h5>
-              <small>Watching Anime, Drawing</small>
+              <small>digital art,traveling.</small>
             </article>
           </div>
-          <p>Hi I am Sai Teja kavuri (also known as Saix123), I am a student currently pursuing my under graduation in Vignan's LARA Institute of Technology and Science,  And aspirig to be a Fullstack Web Developer.</p>
+          <p>Hi I am Sai Teja kavuri (also known as Saix123), I am a student currently a student at Saint Louis University,  And aspirig to be a Fullstack Web Developer.</p>
           <a href="#contact" className='btn btn-primary'>Want to talk</a>
         </div>
       </div>
