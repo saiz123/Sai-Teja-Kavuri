@@ -6,10 +6,10 @@ import {VscGithub} from 'react-icons/vsc'
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className='footer_logo'>Sai Teja Kavuri</a>
+      <a href="#Header" className='footer_logo'>Sai Teja Kavuri</a>
 
       <ul className='textlinks'>
-        <li><a href="#">Home</a></li>
+        <li><a href="#Header">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#experience">Skills</a></li>
         <li><a href="#portfolio">Portfolio</a></li>
