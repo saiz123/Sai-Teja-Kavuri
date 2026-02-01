@@ -40,6 +40,12 @@ footer a {
     color: var(--color-bg);
     border: 1px solid var(--color-bg);
 }
+
+.footer__copyright {
+    margin-bottom: 4rem;
+    color: var(--color-bg);
+}
+
 @media screen and ( max-width:600px)  {
     .textlinks{
         flex-direction: column;

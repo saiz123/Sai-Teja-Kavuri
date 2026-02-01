@@ -1,92 +1,106 @@
 import React from 'react'
-import './expirence.css'
+import './experience.css'
 import {BsCheckCircleFill} from 'react-icons/bs'
 
-const expirence = () => {
+const Experience = () => {
   return (
     <section id='experience'>
       <div className='expirence-top'>
-        <h5>What I can Do</h5>
+        <h5>My Skills</h5>
       </div>
       
-      <h2>My Skills</h2>
+      <h2>Technical Expertise</h2>
       <div className="container expirence_container">
         <div className="experience_frontend">
-            <h3>Frontend Developement</h3>
+            <h3>Security Domains & Tools</h3>
             <div className="experience_content">
               <article className="experience_details">
                   <BsCheckCircleFill className="expirence_details-icon"/>
                   <div>
-                  <h4>HTML</h4>
-                  <small className="text-light">Intermediate</small>
+                  <h4>Threat Modeling</h4>
+                  <small className="text-light">Experienced</small>
                   </div>
               </article>
               <article className="experience_details">
                   <BsCheckCircleFill className="expirence_details-icon"/>
                   <div>
-                    <h4>CSS</h4>
-                    <small className="text-light">Intermediate</small>
+                    <h4>Penetration Testing</h4>
+                    <small className="text-light">Experienced</small>
                   </div>
               </article>
               <article className="experience_details">
                   <BsCheckCircleFill className="expirence_details-icon"/>
                   <div>
-                    <h4>JavaScript</h4>
-                    <small className="text-light">Intermediate</small>
+                    <h4>Burp Suite</h4>
+                    <small className="text-light">Experienced</small>
                   </div>
               </article>
               <article className="experience_details">
                   <BsCheckCircleFill className="expirence_details-icon"/>
                   <div>
-                    <h4>BootStrap</h4>
-                    <small className="text-light">Intermediate</small>
+                    <h4>Metasploit</h4>
+                    <small className="text-light">Experienced</small>
                   </div>
               </article>
               <article className="experience_details">
                   <BsCheckCircleFill className="expirence_details-icon"/>
                     <div>
-                      <h4>TailWind</h4>
-                      <small className="text-light">Beginner</small>
+                      <h4>Wireshark</h4>
+                      <small className="text-light">Experienced</small>
                     </div>
               </article>
               <article className="experience_details">
                   <BsCheckCircleFill className="expirence_details-icon"/>
                   <div>
-                    <h4>React</h4>
-                    <small className="text-light">Beginner</small>
+                    <h4>Splunk/Wazuh</h4>
+                    <small className="text-light">Experienced</small>
                   </div>
               </article>
             </div>
         </div>
         <div className="experience_backend">
-            <h3>Backend Developement</h3>
+            <h3>Cloud & Engineering</h3>
             <div className="experience_content">
             <article className="experience_details">
                 <BsCheckCircleFill className="expirence_details-icon"/>
                 <div>
-                  <h4>node js</h4>
-                  <small className="text-light">intermediate</small>
+                  <h4>AWS & GCP</h4>
+                  <small className="text-light">Experienced</small>
                 </div>
               </article>
               <article className="experience_details">
                 <BsCheckCircleFill className="expirence_details-icon"/>
                 <div>
-                  <h4>mangoDB</h4>
-                  <small className="text-light">Beginner</small>
+                  <h4>Python</h4>
+                  <small className="text-light">Experienced</small>
                 </div>
               </article>
               <article className="experience_details">
                 <BsCheckCircleFill className="expirence_details-icon"/>
                 <div>
-                  <h4>MySQL</h4>
-                  <small className="text-light">Beginner</small>
-                </div>
-              </article>
-              <article className="experience_details">
-                <BsCheckCircleFill className="expirence_details-icon"/>
-                <div>
-                  <h4>python</h4>
+                  <h4>JavaScript</h4>
                   <small className="text-light">Intermediate</small>
+                </div>
+              </article>
+              <article className="experience_details">
+                <BsCheckCircleFill className="expirence_details-icon"/>
+                <div>
+                  <h4>C / C++</h4>
+                  <small className="text-light">Intermediate</small>
+                </div>
+              </article>
+               <article className="experience_details">
+                <BsCheckCircleFill className="expirence_details-icon"/>
+                <div>
+                  <h4>Linux / Kali</h4>
+                  <small className="text-light">Experienced</small>
+                </div>
+              </article>
+               <article className="experience_details">
+                <BsCheckCircleFill className="expirence_details-icon"/>
+                <div>
+                  <h4>Networking</h4>
+                  <small className="text-light">Experienced</small>
                 </div>
               </article>
             </div>
@@ -96,4 +110,4 @@ const expirence = () => {
   )
 }
 
-export default expirence
+export default Experience

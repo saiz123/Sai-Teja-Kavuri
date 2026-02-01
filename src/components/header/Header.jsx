@@ -4,23 +4,23 @@ import CTA from './CTA'
 import sai1 from '../../assets/sai1.jpg'
 import HeaderSocials from './HeaderSocials'
 
-const header = () => {
+const Header = () => {
   return (
     <header id='Header'>
       <div className="container header__container">
-        <h2>Hi! I am</h2>
-        <h1>SAI TEJA KAVURI</h1>
-        <h3 className="text-light">
-          And welcome to My Protfolio
-        </h3>
+        <h5>Hello I'm</h5>
+        <h1>Sai Teja Kavuri</h1>
+        <h5 className="text-light">
+          Security Engineer
+        </h5>
         <CTA/>
         <HeaderSocials/>
         <div className="me">
-          <img class='sai' src={sai1} alt="me" />
+          <img className='sai' src={sai1} alt="me" />
         </div>
       </div>
     </header>
   )
 }
 
-export default header
+export default Header

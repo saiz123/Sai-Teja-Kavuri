@@ -2,9 +2,9 @@ import React from 'react'
 import Header from './components/header/Header'
 import Nav from './components/nav/Nav'
 import About from './components/about/About'
-import Expirence from './components/experience/Expirence'
+import Experience from './components/experience/Experience'
 import Contact from './components/contact/Contact'
-// import Protfolio from './components/protfolio/Protfolio'
+import Portfolio from './components/portfolio/Portfolio'
 import Footer from './components/footer/Footer'
 
 const App = () => {
@@ -13,8 +13,8 @@ const App = () => {
         <Header/>
         <Nav/>
         <About/>
-        <Expirence/>
-        {/* <Protfolio/> */}
+        <Experience/>
+        <Portfolio/>
         <Contact/>
         <Footer/>
 
